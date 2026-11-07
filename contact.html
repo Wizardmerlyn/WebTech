@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+</head>
+<body>
+    <style>
+      body { background-color: rgb(117, 146, 179); color: rgb(236, 222, 222); }
+    </style>
+    <header>
+        <h1>Contact Me</h1>
+    </header>
+    <nav>
+        <a href="index.html">HOME</a> | <a href="about.html">ABOUT</a> | <a href="education.html">EDUCATION</a> | <a href="contact.html">CONTACT</a>
+    </nav>
+    <main>
+        <section>
+            <h2>Contact Form</h2>
+            <p>This form doesn't send messages. *THIS IS ONLY FOR DEMO* </p>
+            <form action="contact.html" method="get">
+                <p>
+                    <label>Name</label>
+                    <input type="text" name="name" required maxlength = "100">
+                </p>
+                <p>
+                    <label>Email</label>
+                    <input type="email" name="email" required>
+                </p>
+                <p>
+                    <label>Subject</label>
+                    <input type="text" name="subject" required maxlength = "150">
+                </p>
+                <p>
+                    <label>Message</label><br>
+                    <textarea name="message" rows="5" cols="40" required maxlength = "2000"></textarea>
+                </p>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>John Alexander Apuan | Web Technology</p>
+    </footer>
+</body>
+</html>
