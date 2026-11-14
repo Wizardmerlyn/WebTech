@@ -1,0 +1,25 @@
+body{
+    font-family: monospace;
+    font-size: medium;
+}
+
+.container{
+    background-color:rgb(10, 58, 42);
+    color: white;
+}
+
+.navigation{
+    background-color: aquamarine;
+    color: white;
+    border-radius: 4px;
+}
+
+.footer{
+    background-color: rgb(49, 126, 103);
+    color: rgb(150, 43, 43);
+}
+
+.hero{
+    background-color: aquamarine;
+    color:brown;
+}

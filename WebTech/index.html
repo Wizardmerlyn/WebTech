@@ -3,22 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="index.css">
     <title>My Personal Web Portfolio</title>
 </head>
 <body>
-    <style>
-      body { background-color: rgb(117, 146, 179); color: rgb(236, 222, 222); }
-    </style>
-    <header>
-        <h1>My Personal Web Portfolio</h1>
+    
+    <div class ="container">
+    <header class = "hero">
+        <h1 id="Main title">My Personal Web Portfolio</h1>
         <p>John Alexander Apuan</p>
-        <a href="about.html"><img src="images/profile.png" alt="" width="420" height="450"></a>
         <p>Bachelor of Science in Information Technology | Second Year</p>
     </header>
-    <nav>
+    <nav class ="navigation">
         <a href="index.html">HOME</a> | <a href="about.html">ABOUT</a> | <a href="education.html">EDUCATION</a> | <a href="contact.html">CONTACT</a> | <a href="rickroll.html">DON'T CLICK</a>
     </nav>
     <main>
+        <a href="about.html"><img src="images/profile.png" alt="" width="320" height="400"></a>
         <section>
             <h2>Welcome</h2>
             <p>Welcome to my personal web portfolio. I am John Alexander Apuan, a second-year BSIT student learning web technology.</p>
@@ -41,8 +42,9 @@
             </ul>
         </section>
     </main>
-    <footer>
+    <footer class = "footer">
         <p>Thank you for visiting my website and getting to know me.</p>
     </footer>
+    </div>
 </body>
 </html>
