@@ -1,6 +1,8 @@
 body{
     font-family: monospace;
-    font-size: medium;
+    font-size: large;
+    text-align: justify;
+    text-align-last: center;
 }
 
 main{
@@ -16,15 +18,21 @@ main{
     background-color: aquamarine;
     color: white;
     border-radius: 4px;
+    text-align: center;
 }
 
 .footer{
-    background-color: rgb(13, 49, 38);
-    color: rgb(255, 255, 255);
+    background-color: rgb(61, 255, 197);
+    color: rgb(134, 22, 22);
 }
 
 .hero{
     background-color: rgb(20, 51, 41);
     color:brown;
     padding: 50px;
+}
+
+.html_activities{
+    text-align: justify;
+    text-align-last: left;
 }
