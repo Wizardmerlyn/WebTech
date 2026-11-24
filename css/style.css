@@ -1,41 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+
 body{
-    font-family: monospace;
-    font-size: large;
-    text-align: justify;
+    font-family: Arial, sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.6;
     text-align-last: center;
+    margin: 0;
+    padding: 0;
 }
 
-main{
-    background-color:bisque;
-    padding: 16px;
-}
-
-.container{
-    background-color:rgb(10, 58, 42);
-    color: white;
-}
 
 .navigation{
     background-color: aquamarine;
     color: white;
     border-radius: 4px;
     text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-justify: auto;
 }
 
-.footer{
-    background-color: rgb(61, 255, 197);
-    color: rgb(134, 22, 22);
+.container{
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
 }
 
-.hero{
-    background-color: rgb(20, 51, 41);
-    color:brown;
-    padding: 50px;
+.hero {
+    background-color: rgb(127, 131, 130);
+    color:rgb(235, 235, 235);
+    padding: 24px 16px;
 }
 
-.html_activities{
-    text-align: justify;
-    text-align-last: left;
+.hero h1{
+    margin: 0 0 8px 0
+}
+
+.hero p{
+    margin: 4px 0
+}
+
+main{
+    background-color:bisque;
+    padding: 24px 16px;
+}
+
+.section {
+    margin-bottom: 28px;
 }
 
 .profile-wrap{
@@ -43,13 +56,31 @@ main{
     justify-content: center;
     align-items: center;
     width: 100%;
-    margin-top: 24px;
-    margin-bottom: 24px;
+    margin: 16px 0 28px 0;
 }
 
 .profile-img{
     display: block;
-    width: 320px;
+    width: 280px;
     max-width: 100%;
     height: auto;
+    border-radius: 50%;
+}
+
+.html-activities{
+    display: inline-block;
+    text-align: left;
+    margin-bottom: 0;
+    padding-bottom: 16px;
+}
+
+.footer{
+    background-color: rgb(61, 255, 197);
+    color: rgb(134, 22, 22);
+    margin: 0;
+    padding: 12px 16px;
+}
+
+.footer p {
+    margin: 0;
 }
