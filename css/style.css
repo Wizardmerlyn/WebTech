@@ -7,6 +7,7 @@ body{
 
 main{
     background-color:bisque;
+    padding: 16px;
 }
 
 .container{
@@ -35,4 +36,20 @@ main{
 .html_activities{
     text-align: justify;
     text-align-last: left;
+}
+
+.profile-wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.profile-img{
+    display: block;
+    width: 320px;
+    max-width: 100%;
+    height: auto;
 }
